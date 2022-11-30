@@ -1,0 +1,698 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1440px;
+    height: 2664px;
+    margin: 0 auto;
+}
+
+.container {
+    font-family: 'Mulish', sans-serif;
+    width: 1440px;
+    height: 100%;
+  
+}
+
+.head {
+    padding: 0px;
+    width: 100%;
+    height: 88px;
+    display: flex;
+    justify-content: space-around;
+}
+.head .menu{
+    display: none;
+}
+.head .left {
+    margin-top: 27.78px;
+    margin-bottom: 25.01px;
+    margin-left: 176.6px;
+}
+
+.head .left img {
+    width: 63.4px;
+    height: 35.21px;
+    
+}
+
+.head .sidebar {
+    font-family: 'Mulish', sans-serif;
+}
+
+.head .sidebar ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 35px 32px;
+}
+
+.head .sidebar ul li a {
+
+    font-style: normal;
+    font-weight: 600;
+    color: #373F41;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration: none;
+    padding: 0px;
+    transition: 0.5s all ease;
+}
+
+.head .sidebar ul li a:hover {
+    font-size: 16px;
+}
+
+.head .right {
+
+    margin-right: 165px;
+    margin-top: 23px;
+    margin-bottom: 23px;
+}
+
+.head .right button:nth-child(1) {
+    width: 106px;
+    height: 42px;
+    transition: 2.5s all ease;
+    font-weight: 700;
+    line-height: 18px;
+    font-size: 14px;
+    text-align: center;
+    background-color: white;
+    border: none;
+    color: #3C64B1;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+}
+
+.head .right button:nth-child(2) {
+    width: 106px;
+    height: 42px;
+    transition: 2.5s all ease;
+    background: #3C64B1;
+    border: none;
+    font-weight: 700;
+    line-height: 18px;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+}
+
+.banner {
+
+    width: 100%;
+    padding: 0px;
+    height: 560px;
+    position: relative;
+    background-image: url(/img/bg.png);
+}
+
+.banner .title {
+    width: 730px;
+    position: absolute;
+    height: 112px;
+    margin: 0px auto;
+    text-align: center;
+    top: 137px;
+    left: 355px;
+}
+
+.banner .title h2 {
+
+    color: #373F41;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+
+    font-weight: 700;
+    font-size: 44px;
+    letter-spacing: 0.2px;
+}
+
+.banner .param {
+    width: 730px;
+    height: 44px;
+    position: absolute;
+    height: 112px;
+    top: 281px;
+    left: 355px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.banner .param p {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.8px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.3px;
+    color: #737B7D;
+
+}
+
+.banner .button {
+    width: 100%;
+    margin: 0px auto;
+    position: absolute;
+    top: 381px;
+    left: 582.5px;
+}
+
+.banner .button button:nth-child(1) {
+    width: 136px;
+    height: 42px;
+    transition: 2.5s all ease;
+
+    border: none;
+    font-weight: 700;
+    line-height: 18px;
+    font-size: 14px;
+    margin-right: 42px;
+    text-align: center;
+    color: white;
+    background: #3C64B1;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+}
+
+.banner .button button:nth-child(2) {
+    width: 136px;
+    height: 42px;
+    transition: 2.5s all ease;
+
+    font-weight: 700;
+    line-height: 18px;
+    font-size: 14px;
+    text-align: center;
+    background-color: inherit;
+    border: 1px solid #3C64B1;
+    color: #3C64B1;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+}
+
+.banner .button button:nth-child(1):hover {
+    background: white;
+    color: #3C64B1;
+    border: 1px solid #3C64B1;
+
+}
+
+.banner .button button:nth-child(2):hover {
+    color: white;
+    background: #3C64B1;
+}
+
+.main {
+    width: 1110px;
+    margin: 0px auto;
+
+}
+
+.main .title {
+    font-family: 'Mulish', sans-serif;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.main .title h2 {
+    letter-spacing: 0.1px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #373F41;
+    margin-bottom: 24px;
+    line-height: 40px;
+}
+
+.main .title p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #737B7D;
+}
+
+.main .about-page {
+    height: 220px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    transition: 0.5s all ease;
+    font-family: 'Mulish', sans-serif;
+}
+
+.main .about-page .box {
+    width: 350px;
+    height: 140px;
+    transition: 0.5s all ease;
+}
+
+.main .about-page .image {
+    width: 100%;
+    text-align: center;
+}
+
+.main .about-page .image img {
+    width: 40px;
+    height: 40px;
+}
+
+.main .about-page .title-info {
+    width: 350px;
+    margin-top: 19px;
+    height: 24px;
+    text-align: center;
+}
+
+.main .about-page .title-info h5 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+
+.main .about-page .text {
+    width: 100%;
+    text-align: center;
+
+}
+
+.main .about-page .text p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.8px;
+    line-height: 20px;
+    margin-top: 12px;
+}
+
+.main .about-page .discover {
+    width: 100%;
+    text-align: center;
+    margin-top: 34px;
+}
+
+.main .about-page .discover a {
+    text-decoration: none;
+    color: #3C64B1;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    line-height: 18px;
+}
+
+.main .about-page .box:hover {
+    opacity: 0.4;
+}
+
+.main .box1 {
+    height: 440px;
+    margin-bottom: 108px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .box1 .left img {
+    width: 540px;
+    height: 440px;
+}
+
+.main .box1 .right {
+    width: 540px;
+
+}
+
+.main .box1 .right .title {
+    margin-top: 38px;
+    width: 540px;
+    height: 120px;
+    text-align: left;
+
+}
+
+.main .box1 .right .title h3 {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 32px;
+    color: #373F41;
+}
+
+.main .box1 .right .praram p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.3px;
+    color: #737B7D;
+}
+
+.main .box1 .right .form {
+    width: 100%;
+    margin-top: 56px;
+    height: 42px;
+}
+
+.main .box1 .right .form input {
+    width: 70%;
+    padding: 0px 16px;
+    height: 42px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #737B7D;
+}
+
+.main .box1 .right .form button {
+    width: 129px;
+    height: 42px;
+    background: #3C64B1;
+    color: white;
+    border: none;
+    margin-left: 24px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+}
+
+.main .box1 .right .pragrah {}
+
+.main .box1 .right .pragrah p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    margin-top: 16px;
+    line-height: 16px;
+    color: #737B7D;
+}
+
+.main .box1 .right .second-side {
+    display: flex;
+}
+
+.main .box1 .right .second-side .image img {
+    width: 32px;
+    height: 32px;
+}
+
+.main .box1 .right .second-side .left-side .text p {
+    width: 255px;
+    font-style: normal;
+    font-weight: 400;
+    margin-right: 30px;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.3px;
+    color: #737B7D;
+}
+
+.main .box1 .right .second-side .right-side .text p {
+    width: 255px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.3px;
+
+    color: #737B7D;
+}
+
+.main .box1:nth-child(2) {
+    margin-bottom: 86px;
+}
+
+.main .footer {
+    width: 100%;
+    margin-bottom: 95px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .footer .box2 {
+    width: 255px;
+}
+
+.footer .box2 .image {
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer .box2 .image img {
+    width: 255px;
+    height: 260px;
+
+}
+
+.main .footer .box2 .name {
+    width: 255px;
+    text-align: center;
+}
+
+.main .footer .box2 .name h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    width: 255px;
+    height: 24px;
+    color: #373F41;
+    margin-top: 32px;
+}
+
+.main .footer .para {
+    margin-top: 12px;
+    text-align: center;
+    width: 100%;
+}
+
+.main .footer .para p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #373F41;
+}
+
+@media only screen and (max-width: 600px){
+    body{
+        width: 100%;
+        height: 100%;
+    }
+    .container{
+        width: 100%;
+        height: 100%;
+    }
+    .head{
+        display: flex;
+        justify-content: space-between;
+    }
+    .head .sidebar{
+        display: none;
+    }
+    .head .right{
+        display: none;
+    }
+    .head .left{
+        
+        margin-left: 20px;
+    }
+    .head .menu{
+        display: block;
+    }
+    .head .menu_con-container{
+        display: none;
+        margin-right: 20px;
+    }
+    .head .menu img{
+        margin-top: 25px;
+        margin-right: 20px;
+        width: 40px;
+        height: 40px;
+    }
+    .head .menu_con-container{
+        margin-top: 20px;
+    
+        display: fixed;
+        
+    }
+    .head .menu_con-container ul li{
+        list-style: none;
+        margin-top: 10px;
+    }
+    .head .menu_con-container ul li a{
+        text-decoration: none;
+        font-size: 17px;
+        color:#373F41;
+        font-weight: 700;
+    }
+
+    .head .menu_con-container button{
+        margin-top: 20px;
+        display: block;
+        width: 80px;
+        height: 25px;
+        background-color: #3C64B1;
+        color: white;
+        border: none;
+        font-size: 14px;
+        border-radius: 3px;
+        font-weight: 600;
+    }
+    .head .menu_con-container button:nth-child(3){
+        margin-top: 10px;
+        background-color: white;
+        color: #3C64B1;
+    }
+    .banner{
+        width: 100%;
+        margin: 0px auto;
+        height: 450px;
+    }
+    .banner .title{
+        position: relative;
+        top:30px ;
+        left: 0px;
+        width: 95%;
+        margin: 0px auto;
+    }
+    .banner .title h2{
+       font-size: 22px;
+        margin-left: 0px;
+    }
+    .banner .param{
+        position: relative;
+        top:60px ;
+        left: 0px;
+        width: 95%;
+        margin: 0px auto;
+    }
+    .banner .button {
+        left: 0px;
+        top: 80px;
+        display: flex;
+        width: 80%;
+        margin: 0px auto;
+        position: relative;
+    }
+    .main{
+        width: 100%;
+    }
+    .main .title{
+        margin-left: 0px;
+        width: 100%;
+    }
+    .main .title h2 {
+        width: 95%;
+        margin: auto;
+        letter-spacing: 0.1px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        color: #373F41;
+        margin-bottom: 24px;
+        line-height: 40px;
+    }
+    .main .about-page{
+        height: 540px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .main .about-page .box{
+        width: 100%;
+        margin: 0px auto;
+    }
+    .main .about-page .title-info{
+        width: 80%;
+        margin: 0px auto;
+    }
+    .main .about-page .box .text{
+        width: 80%;
+        margin: 0px auto;
+    }
+    .main .box1 {
+        display: flex;
+        height: 440px;
+        flex-direction: column;
+        margin-bottom: 280px;
+    }
+    .main .box1 .left {
+        width: 80%;
+        height: 300px;
+        margin: 0px auto;
+    }
+    .main .box1 .left img{
+        width: 100%;
+        height: 100%;
+    }
+    .main .box1 .right {
+        width: 90%;
+        margin: 0px auto;
+        
+    }
+    .main .box1 .right .title {
+        width: 100%;
+        text-align: center;
+        
+        margin: 0px auto;
+    }
+    .main .box1 .right .title h3 {
+        font-family: 'Mulish', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        margin-top: 20px;
+        font-size: 21px;
+        margin-bottom: 32px;
+        color: #373F41;
+    }
+    .main .box1  .praram{
+        width: 100%;
+        margin: 0px auto;
+        padding-left: 25px;
+    }
+    .main .box1 .praram p{
+        width: 100%;
+        margin: 0px auto;
+    }
+    .main .box1 .form{
+        width: 100%;
+        margin: 0px auto;
+        display: flex;
+        display: flex;
+        flex-basis: 45%;
+    }
+    
+    .main .box1 .right .second-side{
+        display: flex;
+        flex-direction: column;
+        margin: 0px auto;
+    }
+    .main .box1 .right .second-side .left-side{
+        margin-bottom: 20px;
+    }
+    .main .box1 .right .second-side .right-side{
+        margin-bottom: 15px;
+    }
+    .footer {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer .box2{
+        width: 90%;
+        margin: 0px auto;
+    }
+  }
